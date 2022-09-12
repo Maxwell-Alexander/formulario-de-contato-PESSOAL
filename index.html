@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Envio de e-mail</title>
+</head>
+
+<body>
+
+
+    <div class="conteiner">
+
+        <div class="child imgConteiner">
+            <img src="img/nuvem_akatsuki.png" alt="">
+
+        </div>
+        <div class="child formulario">
+            <h1>Formulário de contato</h1>
+
+            <form action="https://formsubmit.co/maxwellalexander007@gmail.com" method="POST">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" placeholder="informe seu nome..." required>
+
+                <label for="tel">Telefone</label>
+                <input type="tel" id="tel" name="tel" placeholder="seu telefone..." required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="seu e-mail..." required>
+
+                <label for="msg">Menssagem</label>
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Nos envie uma menssagem..."></textarea>
+
+                <!--Configurações adicionais-->
+                <input type="hidden" name="_autoresponse" value="Obrigado, entraremos em contato o mais breve possível">
+                <input type="hidden" name="_template" value="box">
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
